@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Downloaded HO images (not needed for production)
+20-Photos.jpg
+Boardroom.jpg
+Events-Homepage.jpg
+Finance-Stock.jpg
+GreeceInNumbers.jpg
+Journals.jpg
+Landing-Page-Minouche.jpg
+Launch.jpg
+PH1-HISTORY.jpg
+PH2-HO-IN-A-GLANCE.jpg
+PH3-MEET-THE-DIRECTOR.jpg
+PH4-TEAM.jpg
+PH5-EVENTS.jpg
+PublicationCover.jpg
+Research-homepage.jpg
+Seminar.jpg
+Tsakloglou-Anniversary.jpg
+Venizelos.jpg
+Visiting-Opportunities.jpg
+donors.jpg
+ho_banner.jpg
+housing.png
+people.jpg

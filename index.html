@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aristeidis Grivokostopoulos | Economic History & Data Science</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Meta Tags -->
+    <meta name="description"
+        content="Aristeidis Grivokostopoulos - PhD Candidate in Economic History at LSE. Specializing in 19th-century sovereign debt and computational text analysis.">
+    <meta property="og:title" content="Aristeidis Grivokostopoulos | Economic Historian">
+    <meta property="og:image" content="assets/img/lse_logo.svg">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="assets/img/lse_logo.svg" alt="LSE" class="header-logo">
+                AG.
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#teaching">Teaching</a>
+                <a href="#industry">Industry</a>
+                <a href="#cv">CV</a>
+                <!-- Dark Mode Toggle -->
+                <button id="theme-toggle" class="theme-toggle"
+                    style="background:none;border:none;cursor:pointer;">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-role">PhD Candidate • LSE Economic History</div>
+            <h1>Aristeidis Grivokostopoulos</h1>
+            <p class="hero-intro">
+                I study the <strong>political economy of sovereign debt</strong> and monetary regimes in 19th-century
+                Europe.
+                <br><br>
+                My research combines archival history with <strong>computational text analysis</strong> (NLP) to
+                understand how political narratives drive financial outcomes.
+            </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>
+                    I am a second-year PhD student in the Department of Economic History at the <strong>London School of
+                        Economics</strong>,
+                    funded by the <strong>ESRC</strong>. My supervisors are <a
+                        href="https://www.lse.ac.uk/Economic-History/People/Faculty-and-Teachers/Ritschl">Albrecht
+                        Ritschl</a> and <a
+                        href="https://www.lse.ac.uk/Economic-History/People/Faculty-and-Teachers/Accominotti">Olivier
+                        Accominotti</a>.
+                </p>
+                <p>
+                    My current work revisits the classical adoption of the Gold Standard in the European periphery.
+                    Before returning to academia, I worked in venture capital (Creandum, Speedinvest) and operations
+                    (Clausematch, Genie).
+                    I leverage this technical background to apply large language models and machine learning to
+                    historical parliamentary records.
+                </p>
+                <div class="badge-container">
+                    <span class="badge">LSE Data Science Institute Affiliate</span>
+                    <span class="badge">Hellenic Observatory Scholar</span>
+                </div>
+            </div>
+
+            <div class="profile-img-col">
+                <img src="assets/img/headshot.jpg" alt="Aristeidis Grivokostopoulos" class="profile-img">
+                <!-- Hellenic Observatory Logo -->
+                <div class="ho-logo-container">
+                    <img src="assets/img/HO-About-transparent.png" alt="Hellenic Observatory" class="ho-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+
+        <div class="research-grid">
+
+            <!-- Paper 1 -->
+            <article class="paper-card">
+                <span class="paper-status">Working Paper</span>
+                <h3>The Thin Film of Gold in the European Periphery</h3>
+                <h4>Gold Standard Credibility and Greek Sovereign Debt, 1880–1914</h4>
+                <p>
+                    Testing the "good housekeeping" vs. "thin film" hypotheses using newly compiled monthly bond
+                    spreads.
+                    I find that political instability and fiscal crises were the primary drivers of risk premiums,
+                    rather than monetary regime adoption per se.
+                </p>
+
+                <div class="tech-stack">
+                    <span class="tech-pill">Panel Regressions</span>
+                    <span class="tech-pill">Event Studies</span>
+                    <span class="tech-pill">Archival Data</span>
+                </div>
+
+                <div class="paper-actions">
+                    <a href="mailto:a.grivokostopoulos@lse.ac.uk?subject=Request Draft: Thin Film of Gold"
+                        class="btn-text">Request Draft</a>
+                </div>
+            </article>
+
+            <!-- Paper 2 -->
+            <article class="paper-card">
+                <span class="paper-status">Working Paper</span>
+                <h3>Words and Votes in the Greek Parliament, 1865–1915</h3>
+                <h4>A Discursive-Network Theory of Legislative Order</h4>
+                <p>
+                    How do legislative coalitions form without stable parties? I use a newly digitised corpus of
+                    parliamentary debates
+                    to map the co-evolution of rhetorical communities and voting networks in late 19th-century Greece.
+                </p>
+
+                <div class="tech-stack">
+                    <span class="tech-pill">NLP / BERTopic</span>
+                    <span class="tech-pill">SBERT Embeddings</span>
+                    <span class="tech-pill">Network Analysis</span>
+                    <span class="tech-pill">OCR Pipeline</span>
+                </div>
+
+                <div class="paper-actions">
+                    <a href="mailto:a.grivokostopoulos@lse.ac.uk?subject=Request Draft: Words and Votes"
+                        class="btn-text">Request Draft</a>
+                </div>
+            </article>
+
+            <!-- Work in Progress -->
+            <div style="margin-top: var(--space-md);">
+                <h3>Work in Progress</h3>
+                <ul class="teaching-list">
+                    <li>
+                        <span><strong>Currency Dominance in Bond Issuance</strong> (Gold Standard Era)</span>
+                    </li>
+                    <li>
+                        <span><strong>Bank Failures during the 1931 Crisis</strong> (with Philip Fliers)</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <ul class="teaching-list">
+            <li>
+                <span>EC311: History of Economic Thought</span>
+                <span class="teaching-role">GTA</span>
+            </li>
+            <li>
+                <span>EH390: Stata Workshops</span>
+                <span class="teaching-role">Instructor</span>
+            </li>
+            <li>
+                <span>EC204: Bubbles, Crashes and Inflations</span>
+                <span class="teaching-role">GTA</span>
+            </li>
+            <li>
+                <span>GTA Officer (LSESU)</span>
+                <span class="teaching-role">2025-26</span>
+            </li>
+        </ul>
+    </section>
+
+    <section id="industry">
+        <h2>Industry</h2>
+        <p style="margin-bottom: var(--space-md); color: var(--color-text-secondary);">
+            Before returning to academia, I spent 5 years in venture capital and startup operations.
+        </p>
+        <ul class="teaching-list">
+            <li>
+                <span><strong>Genie</strong> — Founder Associate, Operations</span>
+                <span class="teaching-role">2024–25</span>
+            </li>
+            <li>
+                <span><strong>Clausematch</strong> — Operations Manager</span>
+                <span class="teaching-role">2021–23</span>
+            </li>
+            <li>
+                <span><strong>Creandum</strong> — Visiting Analyst</span>
+                <span class="teaching-role">2020</span>
+            </li>
+            <li>
+                <span><strong>Speedinvest</strong> — Visiting Analyst, CIO</span>
+                <span class="teaching-role">2020</span>
+            </li>
+            <li>
+                <span><strong>N26</strong> — Intern, Finance</span>
+                <span class="teaching-role">2019</span>
+            </li>
+            <li>
+                <span><strong>Morgan Stanley</strong> — Off-Cycle Analyst, FIG</span>
+                <span class="teaching-role">2018–19</span>
+            </li>
+        </ul>
+    </section>
+
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <p>
+            For a full history of my time in Venture Capital, detailed awards, and complete talk list, please see my CV.
+        </p>
+        <div style="margin-top: var(--space-sm);">
+            <a href="assets/pdf/Grivokostopoulos_CV.pdf" download class="btn-text" style="font-weight: 600;">Download
+                Full CV (PDF)</a>
+        </div>
+
+        <div style="margin-top: var(--space-lg); font-size: 0.9rem; color: var(--color-text-secondary);">
+            <strong>Selected Awards:</strong><br>
+            ESRC Doctoral Training Partnership (2024-2028)<br>
+            MSc Financial History Dissertation Prize, Runner-up (2024)
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">&copy; 2025 Aristeidis Grivokostopoulos. Built with <a href="#">Minimalism</a>.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

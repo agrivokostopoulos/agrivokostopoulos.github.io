@@ -1,0 +1,438 @@
+/* 
+ * styles.css
+ * Academic Website for Aristeidis Grivokostopoulos
+ * Design: Modern Swiss Academic (Minimalist + Tech)
+ */
+
+:root {
+  /* Palette - Modern Swiss */
+  --color-bg: #FFFFFF;
+  /* Pure White */
+  --color-bg-alt: #F8F9FA;
+  /* Light Grey for subtle distinction */
+  --color-text: #111111;
+  /* Near Black */
+  --color-text-secondary: #555555;
+  /* Dark Grey */
+  --color-accent: #4B0082;
+  /* Electric Indigo (User Selected) */
+  --color-border: #EAEAEA;
+
+  /* Typography */
+  --font-serif: 'Source Serif Pro', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, system-ui, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+
+  /* Layout */
+  --max-width: 900px;
+  /* Tighter width for readability */
+  --header-height: 70px;
+  --radius: 4px;
+  /* Sharp branding */
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+  --color-bg: #111111;
+  --color-bg-alt: #1A1A1A;
+  --color-text: #EAEAEA;
+  --color-text-secondary: #AAAAAA;
+  --color-accent: #9D00FF;
+  /* Brighter indigo for dark mode */
+  --color-border: #333333;
+}
+
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Typography Scale */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-sm);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--space-xs);
+  display: inline-block;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: var(--space-xs);
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-family: var(--font-sans);
+  /* Sans-serif for paper titles usually cleaner */
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+p {
+  margin-bottom: var(--space-sm);
+  font-size: 1.05rem;
+  color: var(--color-text-secondary);
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--header-height);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid var(--color-border);
+}
+
+[data-theme="dark"] header {
+  background: rgba(17, 17, 17, 0.95);
+}
+
+.nav-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-sm);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  border-bottom: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--color-accent);
+}
+
+/* Sections */
+section {
+  padding: var(--space-lg) var(--space-sm);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Hero */
+#hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* Left align for Swiss style */
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-role {
+  font-family: var(--font-mono);
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  margin-bottom: var(--space-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero-intro {
+  font-size: 1.35rem;
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* About Grid */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+.profile-img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  /* Grayscale filter for serious academic look, color on hover optional */
+  filter: grayscale(10%);
+  transition: all 0.3s ease;
+}
+
+.profile-img:hover {
+  filter: grayscale(0%);
+}
+
+.badge-container {
+  margin-top: var(--space-sm);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.badge {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Research Grid */
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.paper-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  padding: var(--space-md);
+  border-radius: var(--radius);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+
+.paper-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border-color: var(--color-accent);
+}
+
+.paper-status {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-accent);
+  margin-bottom: var(--space-xs);
+  display: block;
+}
+
+.tech-stack {
+  margin-top: var(--space-sm);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-pill {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  background: var(--color-bg-alt);
+  color: var(--color-text-secondary);
+  padding: 0.15rem 0.6rem;
+  border-radius: 100px;
+}
+
+.paper-actions {
+  margin-top: var(--space-sm);
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Teaching */
+.teaching-list {
+  list-style: none;
+  font-family: var(--font-sans);
+}
+
+.teaching-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  display: flex;
+  justify-content: space-between;
+}
+
+.teaching-role {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  padding: var(--space-md);
+  margin-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer p,
+.footer-text {
+  margin: 0;
+}
+
+/* Mobile */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    background: var(--color-bg);
+    flex-direction: column;
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--color-border);
+    transform: translateY(-150%);
+    transition: transform 0.3s ease;
+    z-index: 999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links a {
+    padding: 1rem 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .nav-links a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-links.active {
+    transform: translateY(0);
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-img-col {
+    order: -1;
+    margin-bottom: var(--space-md);
+    max-width: 200px;
+  }
+}
+
+/* Hellenic Observatory Logo */
+.ho-logo-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ho-logo {
+  max-width: 200px;
+  height: auto;
+  opacity: 0.9;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.ho-logo:hover {
+  opacity: 1;
+}
+
+/* Dark mode: invert colors for transparent logo */
+[data-theme="dark"] .ho-logo {
+  filter: brightness(0) invert(1);
+}
