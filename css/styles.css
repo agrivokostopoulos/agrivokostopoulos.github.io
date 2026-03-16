@@ -455,13 +455,15 @@ footer p,
   height: auto;
   opacity: 0.9;
   transition: opacity 0.3s ease;
+  mix-blend-mode: multiply;
 }
 
 .dsi-logo:hover {
   opacity: 1;
 }
 
-/* Dark mode: invert colors for DSI logo */
+/* Dark mode: screen blend makes white transparent on dark backgrounds */
 [data-theme="dark"] .dsi-logo {
-  filter: brightness(0) invert(1);
+  mix-blend-mode: screen;
+  filter: invert(1);
 }
