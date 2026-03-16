@@ -259,6 +259,37 @@ section {
   border-radius: 4px;
 }
 
+/* Affiliations with logos */
+.affiliations {
+  margin-top: var(--space-sm);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.affiliation-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.affiliation-logo {
+  max-width: 120px;
+  height: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.affiliation-logo:hover {
+  opacity: 1;
+}
+
+/* Dark mode: invert logos */
+[data-theme="dark"] .affiliation-logo {
+  filter: brightness(0) invert(1);
+}
+
 /* Research Grid */
 .research-grid {
   display: grid;
@@ -414,56 +445,3 @@ footer p,
   }
 }
 
-/* Hellenic Observatory Logo */
-.ho-logo-container {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-.ho-logo {
-  max-width: 200px;
-  height: auto;
-  opacity: 0.9;
-  transition: filter 0.3s ease, opacity 0.3s ease;
-}
-
-.ho-logo:hover {
-  opacity: 1;
-}
-
-/* Dark mode: invert colors for transparent logo */
-[data-theme="dark"] .ho-logo {
-  filter: brightness(0) invert(1);
-}
-
-/* Logo row under photo */
-.logo-row {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.dsi-logo-container {
-  display: flex;
-  align-items: center;
-}
-
-.dsi-logo {
-  max-width: 140px;
-  height: auto;
-  opacity: 0.9;
-  transition: opacity 0.3s ease;
-  mix-blend-mode: multiply;
-}
-
-.dsi-logo:hover {
-  opacity: 1;
-}
-
-/* Dark mode: screen blend makes white transparent on dark backgrounds */
-[data-theme="dark"] .dsi-logo {
-  mix-blend-mode: screen;
-  filter: invert(1);
-}
