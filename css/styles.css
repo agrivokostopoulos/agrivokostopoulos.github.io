@@ -436,3 +436,32 @@ footer p,
 [data-theme="dark"] .ho-logo {
   filter: brightness(0) invert(1);
 }
+
+/* Logo row under photo */
+.logo-row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.dsi-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.dsi-logo {
+  max-width: 100px;
+  height: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.dsi-logo:hover {
+  opacity: 1;
+}
+
+/* Dark mode: invert colors for DSI logo */
+[data-theme="dark"] .dsi-logo {
+  filter: brightness(0) invert(1);
+}
