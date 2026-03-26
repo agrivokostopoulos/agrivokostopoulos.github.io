@@ -1,0 +1,291 @@
+\documentclass[9pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{classic}
+\moderncvcolor{black}
+\moderncvicons{symbols}
+
+% Use T1 font encoding and a modern sans-serif font that supports scalable sizes
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+
+% Add fancyhdr for headers
+\usepackage{fancyhdr}
+
+% Geometry settings - very aggressive margins for space
+\usepackage[scale=0.98,top=1.5cm,bottom=0.5cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{lastpage}
+
+% Reduce spacing aggressively
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=*,topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt}
+
+% Reduce section spacing even more
+\renewcommand{\sectionfont}{\Large\mdseries\upshape}
+\renewcommand{\subsectionfont}{\large\mdseries\upshape}
+
+% Personal data
+\renewcommand*{\namefont}{\fontsize{16}{18}\mdseries\upshape}
+\name{Aristeidis}{Grivokostopoulos}
+\phone[mobile]{+44 7867 210875}
+\email{a.grivokostopoulos@lse.ac.uk}
+\social[linkedin]{aris-grivokostopoulos}
+
+% Set up headers
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyhead[L]{} % Left header (blank)
+\fancyhead[C]{} % Center header (blank)
+\fancyhead[R]{} % Right header (blank)
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+\fancyfoot{} % Clear footer
+
+\begin{document}
+\pagenumbering{gobble}
+\makecvtitle
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-5mm}
+\section{Education}
+
+\cventry{09/2024--Present}{MPhil/PhD Economic History}{London School of Economics and Political Science (LSE)}{London, UK}{}{%
+  \begin{itemize}
+    \item Supervisors: Professors Albrecht Ritschl and Olivier Accominotti; Research focus: Political economy of late 19th-century Greek currency and debt
+    \item Selected for the ESRC-funded PhD Studentship, after turning down a place at Oxford University
+    \item Auditing modules in quantitative text analysis and applied deep learning for social science
+  \end{itemize}%
+}
+
+\cventry{09/2023}{Economics Summer School}{University of Oxford}{Oxford, UK}{}{%
+  \begin{itemize}
+    \item Completed "Foundations of Machine Learning" course by Prof. Maximilian Kasy; Studied PAC learning theory, regularisation, deep neural networks, and language models; Implemented algorithms in Python/scikit-learn
+  \end{itemize}%
+}
+
+\cventry{09/2022--06/2024}{MSc Financial History}{LSE}{London, UK}{}{%
+  \begin{itemize}
+    \item Graduated with Distinction overall, having attended the programme part-time while working full-time
+    \item Modules in time series econometrics and history of global finance, requiring project work in R \& Stata
+    \item Received a high distinction (82\%) for my textual analysis dissertation, written in Python \& R
+  \end{itemize}%
+}
+
+\cventry{09/2015--06/2018}{BSc Economics}{LSE}{London, UK}{}{%
+  \begin{itemize}
+    \item Narrowly missed overall First Class honours, achieving 2:1 in final degree classification
+    \item Distinction in 6/12 modules, in fields such as economic history, macroeconomic principles and finance
+  \end{itemize}%
+}
+
+\cventry{09/2013--06/2015}{IB Diploma (44/45)}{St. Catherine's British (Embassy) School}{Athens, Greece}{}{%
+\begin{itemize}
+    \item Graduated tied 1st amongst my classmates \& Top 1\% worldwide
+\end{itemize}%
+}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Teaching Experience}
+
+\cventry{10/2024--Present}{Teaching Assistant}{LSE Economic History Department}{London, UK}{}{%
+\begin{itemize}
+\item Teaching Assistant for EC311 (History of Economic Thought), EH390 (Stata Workshops), EC204 (History of Bubbles, Crashes and Inflations), EH101 and EH102 courses in economic and financial history
+\item Graded assignments and held office hours with undergraduate students (including a summer school cohort)
+\item Provided guidance and feedback from PhD students on research and teaching methodologies
+\end{itemize}%
+}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Research Experience}
+
+\cventry{11/2025--07/2026}{Research Assistant}{Prof. Almudena Sevilla \& Dr. Dina Rabie}{LSE, Dept. of Social Policy}{}{
+\begin{itemize}
+\item Building Employment Tribunal dataset on discrimination in higher education institutions
+\item Web scraping, data cleaning, and AI-assisted extraction (Gemini) of case details and outcomes
+\end{itemize}}
+
+\cventry{09/2023--06/2024}{Research Assistant}{Professor Albrecht Ritschl}{LSE}{}{
+\begin{itemize}
+\item Recalculated monetary aggregates in Germany during the Great Depression for a book in progress
+\item Conducted archival research on practices to curb hyperinflation in Nazi-occupied Greece
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Professional Experience}
+
+\cventry{01/2024--06/2025}{Founder Associate, Operations}{Genie (Seed-stage B2B SaaS, backed by NEA and GFC, in acquisition talks)}{London, UK}{}{
+\begin{itemize}
+\item AI-powered inventory management and purchase orders platform, available on Shopify
+\item Fundraising: Prepared investor updates, constructed financial model, set up data room, conducted market research, built investor outreach lists, and drafted fundraising material for acquisition
+\item Acted as HR lead, organising all-hands \& offsite sessions, reviewing salaries and heading recruitment
+\item Streamlined processes, particularly around customer support, onboarding, and data management
+\end{itemize}}
+
+\cventry{05/2021--07/2023}{Operations Manager}{Clausematch (Regtech B2B SaaS, acquired by Corlytics in July 2023)}{London, UK}{}{
+\begin{itemize}
+\item Platform to collaborate on policy documents, backed by Index Ventures \& Speedinvest
+\item Liaised with investors in 2 funding rounds, while managing the data room and answering their DD requests
+\item Responsible for company-wide and external reporting, including all-hands, investor update \& board deck
+\item Acted as an HR Manager for a scaling organisation of 70+ people, coordinating recruitment \& onboarding
+\end{itemize}}
+
+\cventry{08/2020--12/2020}{Visiting Analyst, Investment Team}{Creandum (Early-stage VC with pan-European presence)}{Stockholm, Sweden}{}{
+\begin{itemize}
+\item Stellar record in early product-driven investments like Spotify, Trade Republic, Kry \& Vivino
+\item Undertook due diligence, interviewing customers and conducting market analysis for deals, such as: Series A round for SafetyWing (health benefits for the remote workforce); Pre-Seed for lemon.markets (trading equities through an API)
+\item Proactively established relationships with CEE investors and generated leads in the same geography
+\end{itemize}}
+
+\cventry{03/2020--07/2020}{Visiting Analyst, Chief Investment Office}{Speedinvest (Seed-stage VC, one of Europe's most active, managing €1B+)}{Vienna, Austria}{}{
+\begin{itemize}
+\item Investments globally across multiple funds
+\item Owned fund model design for the General Partner (GP): allocation optimisation and scenario analysis
+\item Drafted answers to FAQs from sophisticated institutional LPs in the DD stage, such as the EIF
+\item Conducted an internal study, sourced from the portfolio, on startup board composition and its importance
+\end{itemize}}
+
+\cventry{06/2019--12/2019}{Intern, Finance Team}{N26 (Neobank, raised \$300M Series D from Insight and GIC)}{Berlin, Germany}{}{
+\begin{itemize}
+\item Mobile app, that is a regulated digital bank with 7M+ customers in 25 markets
+\item Provided detailed updates to the Board on the Group's performance, sourcing and modelling data
+\item Constructed bottom-up business cases (revenue modelling) for new and existing products
+\end{itemize}}
+
+\cventry{09/2018--02/2019}{Off-Cycle Analyst, FIG Banking}{Morgan Stanley (Multinational investment bank, leading position in tech advisory)}{London, UK}{}{
+\begin{itemize}
+\item Globally recognised for its Financial Institutions Group (FIG), an industry team within IBD
+\item Prepared discussion materials for C-level client meetings \& board presentations (such as NBG)
+\item For live processes (acquisitions), managed logistics between parties and answered vendor requests
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC POSITIONS
+%----------------------------------------------------------------------------------------
+\section{Academic Positions}
+
+\cventry{10/2025--Present}{GTA Officer}{LSESU}{London, UK}{}{
+\begin{itemize}
+\item Representing Graduate Teaching Assistants in university governance; attending senior LSE committees
+\item Working with UCU on campus advocacy; participating in UKRI stipend campaign with other unions
+\end{itemize}
+}
+
+\cventry{10/2025--Present}{Writing Advisor}{LSE Economic History Department}{London, UK}{}{
+\begin{itemize}
+\item Providing writing advice sessions to undergraduate students
+\item Monitoring student welfare alongside academic support
+\end{itemize}
+}
+
+\cventry{09/2025--Present}{LSE Graduate Economic History Seminar}{LSE}{London, UK}{}{
+\begin{itemize}
+\item Co-convener of weekly PhD seminar series (Autumn 2025), managing applications and program organization
+\item Outreach to international academic networks and manage seminar logistics for diverse participant pool
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC AFFILIATIONS
+%----------------------------------------------------------------------------------------
+\section{Academic Affiliations}
+
+\cventry{12/2024--Present}{PhD Affiliate, Data Science Institute}{LSE}{London, UK}{}{
+\begin{itemize}
+\item Part of an inter-disciplinary network that holds research seminars and workshops on machine learning applications
+\end{itemize}
+}
+
+\cventry{12/2024--Present}{Doctoral Affiliate, Hellenic Observatory}{LSE}{London, UK}{}{
+\begin{itemize}
+\item One of two doctoral candidates selected for the inaugural 2024/25 pilot scheme
+\item Allocated a mentor from senior members and research budget for conferences and fieldwork
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+\section{Awards}
+
+\cventry{09/2024--06/2028}{ESRC Doctoral Training Partnership (DTP) Award}{LSE}{London, UK}{}{
+\begin{itemize}
+\item Selected for prestigious fully-funded studentship covering tuition fees and maintenance stipend
+\end{itemize}
+}
+
+\cventry{12/2024}{Runner-up, MSc Financial History Dissertation Prize}{LSE}{London, UK}{}{
+\begin{itemize}
+\item Highly recommended for the MSc Financial History Dissertation Prize
+\item Dissertation eligible for publication in the LSE Economic History student working paper series
+\end{itemize}
+}
+
+\cventry{05/2015}{Winner, Generation €uro Students' Award}{European Central Bank (ECB)}{Frankfurt, Germany}{}{
+\begin{itemize}
+\item Awarded first place in a Euro-wide team competition on monetary policy, received prize from Mario Draghi
+\item Led a group of 5 students that predicted the ECB's decision during tense Greek government negotiations
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Skills}
+
+\cvitem{Languages}{Greek (Native), English (Native), German (studying for B2)}
+\cvitem{Technical}{Python, R, Stata, SQL, JavaScript; pandas, scikit-learn, tidyverse; Excel}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Research Interests}
+
+\cventry{}{Core Themes}{}{}{}{Sovereign Debt; Financial Markets; Political Institutions; First Age of Globalisation; Text-as-Data; LLMs; History of Economic Thought}
+
+\cventry{}{Working Papers}{}{}{}{
+\begin{itemize}
+\item ``Made in Greece or Echoed from Europe? Sentiment and Awareness Among International Partners During the 1931--1932 Greek Sovereign Debt Crisis'' (draft). Employs a novel LLM-based text-as-data approach on the Tsouderos Archive (private correspondence of the Bank of Greece Governor) to map sentiment and topic trends in communications with foreign officials. Identifies two structural breaks (June and September 1931) via change point analysis; SVAR shows significant negative correlation between archive sentiment and Greek bond yields.
+\item ``From War Finance to Fiscal Supervision: Seniority Structures and Debt Restructuring in the Ottoman Empire, Egypt, and Greece, 1870--1907'' (draft). First comparative empirical analysis of supervisory regimes (OPDA, Caisse de la Dette, IFC) using bond-level London Stock Exchange data. DiD estimates: $-1.39$ pp (Ottoman), $-0.42$ pp (Egypt), $-0.36$ pp (Greece), all $p<0.001$. Greek case shows yield spread inversion ($p=0.035$) driven by state-contingent coupons; proposes minimal extension to Ho--Ritschl (2024) seniority reversal model.
+\item ``Permeable Patronage: Fiscal Crises and Domain-Specific Defection in the Greek Parliament, 1875--1905'' (draft). Tests whether fiscal shocks produce programmatic legislative transitions using 755 nominal roll call votes (132,246 MP--vote observations, 1,049 MPs) linked to a biographical registry and classified by policy domain across eight political shocks. After the 1893 default, Peloponnesian MPs defect 7.3 pp more on taxation ($p=0.006$) but not on non-fiscal votes. Adapts Krehbiel's identification problem to clientelist legislatures via $\pi$-pattern/$\pi$-binding decomposition.
+\item ``Between Civilisation and Constitution: Greek Parliamentary Debates on Gold Standard Adoption, 1875--1885'' (draft, prepared for Mary Morgan Retirement Workshop, June 2026). Reconstructs parliamentary debates using newly digitised Hellenic Parliament proceedings. Argues the gold standard operated as a ``model'' (Morgan's sense) whose authority depended on narrative embedding; the central claim is \textit{misapplication} rather than wrong theory. Maps eleven parliamentarians across constitutional, distributional, regional, and technical registers; analyses absence of bimetallism as counter-narrative.
+\end{itemize}}
+
+\cventry{}{Work in Progress}{}{}{}{
+\begin{itemize}
+\item ``Sterling by Design: Contractual Standardisation and Currency Dominance on the London Stock Exchange, 1869--1929''. Security-level panel of 957 sovereign debt instruments (IMM). Sterling's share of income flows rose from 79\% to 99\% as multi-currency clauses, bullion clauses, and non-sterling denominations were eliminated. Bai--Perron breaks in late 1870s--1880s precede periphery gold adoption; captive borrowers paid 0.90 pp yield premium over outside-option borrowers.
+\item ``Why Did Depositors Run? Withdrawals in the German Banking Crisis of 1931'' (with Philip Fliers, Queen's University Belfast). Bimonthly bank-level balance sheets (1925--1935). Severe withdrawals were widespread, highly predictable up to two years prior, and differed systematically across maturities. Withdrawals accompanied by substantial deposit reallocation across banks.
+\item ``Whatever Happened to Social History? Social History in the Work of the Economic History Society, 1926--2026''. Systematic analysis of the \textit{Economic History Review}, Council records, conference programmes, and Tawney Lectures. Traces how social history underwent methodological transformation while thematic overlap persisted.
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC ACTIVITY
+%----------------------------------------------------------------------------------------
+\section{Academic Activity}
+
+\cventry{}{Conferences}{}{}{}{\begin{itemize}
+\item WEHC (Lund, Sweden, 07/2025): Poster Presentation
+\item WEAI 100th Annual Conference (San Francisco, CA, 06/2025): Paper Presentation
+\end{itemize}}
+
+\cventry{}{Workshops}{}{}{}{\begin{itemize}
+\item SMGS Graduate Research Colloquium (Reading, UK, 05/2025): Paper Presentation
+\item YSI-EHES Economic History Graduate Webinar Series (Virtual, 05/2025): Paper Presentation
+\end{itemize}}
+
+\cventry{}{Seminars}{}{}{}{\begin{itemize}
+\item Hellenic Observatory Research Seminar (LSE, 12/2025): Paper Presentation
+\item DSI PhD Affiliate Lightning Talks (LSE, 02/2025): Presentation
+\item DSI PhD Affiliate Research Spotlight (LSE, 11/2025): Paper Presentation
+\end{itemize}}
+
+\end{document}
+
