@@ -1,0 +1,45 @@
+To: p.kinniburgh@lse.ac.uk
+Subject: Application for ORA Position – Global Forum on AI and Social Sciences
+
+Dear Dr Kinniburgh,
+
+Please find attached my application for the Occasional Research Assistant position
+with the Global Forum on AI and Social Sciences at the LSE Data Science Institute.
+
+The Global Forum's State of AI and Society report connects directly to two applied
+programmes I am working on. I am currently an RA at the Hellenic Observatory
+building datasets for Laliotis and Minos (2025), a study of labour market responses
+to an exogenous tourism shock using EFKA administrative data covering over five
+million private sector employees at ISCO-88 4-digit level. Separately, I have been
+leading a project on AI occupational exposure in the Greek economy for the Hellenic
+Observatory and Bank of Greece, harmonising 17 AI exposure index variants across 345
+occupations. Both involve the kind of cross-source data synthesis at scale the report
+demands, and I want to contribute to a publication with real international reach and
+influence on research and policy priorities.
+
+My methodological toolkit is well matched to the Forum's research agenda. My work
+draws heavily on text-as-data methods and large language models applied to historical
+and contemporary corpora, including a novel LLM-based sentiment analysis of the
+Tsouderos Archive and a roll call analysis of Greek parliamentary debates using over
+132,000 MP-vote observations. I am comfortable moving between qualitative
+interpretation and quantitative rigour, and I write for audiences that span academic
+and policy readerships. I am attaching two single-authored writing samples that
+illustrate both: the first applies an LLM-based approach to measure sentiment in
+archival correspondence during the 1931-1932 Greek sovereign debt crisis; the second
+uses roll call vote data to test whether fiscal shocks produce programmatic
+legislative transitions in nineteenth-century Greece.
+
+I attach my CV and the two writing samples as PDFs. I am available to start
+immediately and can commit to the hours required.
+
+Yours sincerely,
+Aristeidis Grivokostopoulos
+MPhil/PhD Economic History, LSE
+a.grivokostopoulos@lse.ac.uk
++44 7867 210875
+
+
+--- ATTACHMENTS ---
+1. Aristeidis_Grivokostopoulos_CV.pdf
+2. JWG_Sentiment_Greece_1932_FINAL_CLEAN.pdf
+3. roll_call_paper_draft_latest.pdf
