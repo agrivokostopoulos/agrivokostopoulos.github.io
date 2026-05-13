@@ -4,8 +4,7 @@
  * 1. Mobile navigation toggle
  * 2. Smooth scrolling
  * 3. Active link highlighting
- * 4. Expandable abstracts
- * 5. Dark Mode Toggle
+ * 4. Dark Mode Toggle
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -15,10 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
     const currentTheme = localStorage.getItem('theme');
-    if (currentTheme == 'dark') {
+    if (currentTheme === 'dark') {
         document.body.setAttribute('data-theme', 'dark');
         themeToggle.textContent = '☀️';
-    } else if (currentTheme == 'light') {
+    } else if (currentTheme === 'light') {
         document.body.setAttribute('data-theme', 'light');
         themeToggle.textContent = '🌙';
     } else if (prefersDarkScheme.matches) {
@@ -48,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinks.classList.toggle('active');
         // Change icon based on state
         menuToggle.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
-        menuToggle.setAttribute('aria-expanded', navLinks.classList.contains('active'));
+        menuToggle.setAttribute('aria-expanded', navLinks.classList.contains('active') ? 'true' : 'false');
     });
 
     // Close mobile menu when a link is clicked
@@ -82,23 +81,6 @@ document.addEventListener('DOMContentLoaded', () => {
             item.classList.remove('active');
             if (item.getAttribute('href').includes(currentSection)) {
                 item.classList.add('active');
-            }
-        });
-    });
-
-    // --- Expandable Abstracts ---
-    const toggles = document.querySelectorAll('.abstract-toggle');
-
-    toggles.forEach(toggle => {
-        toggle.addEventListener('click', () => {
-            const content = toggle.nextElementSibling; // The .abstract-content div
-
-            if (content.classList.contains('hidden')) {
-                content.classList.remove('hidden');
-                toggle.textContent = 'Hide full abstract';
-            } else {
-                content.classList.add('hidden');
-                toggle.textContent = 'Read full abstract';
             }
         });
     });
