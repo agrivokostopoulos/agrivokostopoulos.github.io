@@ -244,13 +244,6 @@ section {
   filter: grayscale(0%);
 }
 
-.badge-container {
-  margin-top: var(--space-sm);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
 .badge {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -446,4 +439,3 @@ footer p,
     max-width: 200px;
   }
 }
-

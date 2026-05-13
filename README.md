@@ -27,7 +27,7 @@ Open `index.html` in any code editor (VS Code, Cursor, Notepad++).
 
 ### 2. Updating Personal Details
 - **Headshot**: Replace `assets/img/headshot.jpg` with your photo. Ensure it is roughly square or portrait aspect ratio (e.g., 500x600px).
-- **CV**: Replace `assets/pdf/Grivokostopoulos_CV.pdf` with your new PDF file. **Important**: Keep the filename the same, or update the link in `index.html`.
+- **CV**: Replace `assets/pdf/Aristeidis_Grivokostopoulos_CV.pdf` with your new PDF file. **Important**: Keep the filename the same, or update the link in `index.html`.
 
 ### 3. Change Colors / Fonts
 Open `css/styles.css`. At the top, you will see a `:root` block with variables:
