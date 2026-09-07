@@ -1,0 +1,118 @@
+WEALTH OF NATIONS AT 250 — RAPPORTEUR APPLICATION
+Glasgow, 8-9 October 2026
+Deadline: 17 April 2026
+Submit to: alex.trew@glasgow.ac.uk / geethanjali.selvaretnam@glasgow.ac.uk
+
+CONTRIBUTOR PREFERENCES: 1. Besley & Ghatak  2. Rodrik  3. Voth
+
+================================================================================
+STATEMENT OF INTEREST (491 words)
+================================================================================
+
+I am a PhD candidate in Economic History at the London School of Economics,
+funded by the ESRC. My dissertation examines sovereign debt and political
+institutions across the first age of globalisation, combining archival research
+with computational text analysis and panel econometrics.
+
+My preferred assignments are Besley and Ghatak, Rodrik, and Voth, and the fit
+in each case is direct. My paper "Between Civilisation and Constitution: Greek
+Parliamentary Debates on Gold Standard Adoption, 1875-1885", prepared for the
+Mary Morgan Retirement Workshop (June 2026), applies Morgan's models as
+mediators framework to show how the gold standard operated in nineteenth-century
+Greek politics: not as a self-enforcing commitment mechanism but as a model
+whose authority depended on narrative embedding as much as technical
+demonstration. This puts me in close engagement with the questions Besley
+and Ghatak raise about the interplay between values, narrative, and economic
+institutions: their chapter on moral sentiments in market economies addresses
+exactly the mechanisms I reconstruct from the Greek parliamentary record. A
+companion paper on Greek legislative behaviour (1875-1905) uses 755 roll call
+votes to test whether fiscal shocks shift legislators from clientelist to
+programmatic behaviour, which is the question Besley and Ghatak address from
+the theoretical side: when do values and motivated agents reshape economic
+institutions rather than adapt to them?
+
+Rodrik's chapter raises the question of contextual versus universal application
+of economic ideas, which is the core of my paper's misapplication claim: the
+critics of Greece's gold standard adoption were technically correct, and they
+lost not because they were wrong but because they lacked a counter-model with
+comparable narrative authority. In Rodrik's terms, the critics were making a
+proto-mercantilist case, prioritising contextual fit over universal principle,
+without a framework capable of matching the gold standard's civilisational
+authority.
+
+Voth's chapter on conflict, colonialism, and the wealth of nations connects to
+my research on debt restructuring under the Ottoman Public Debt Administration,
+the Egyptian Caisse de la Dette, and the Greek International Financial
+Commission, where I study the fiscal infrastructure question from the borrower
+side using bond-level London Stock Exchange data. All three supervisory regimes
+followed military defeat and forced fiscal restructuring; my difference-in-
+differences estimates show significant yield spread convergence in each case,
+consistent with Voth's argument that conflict-driven institutional change
+reshaped credit conditions for generations.
+
+As a teaching assistant for EC311 (History of Economic Thought) at LSE, I
+regularly explain how economic ideas develop, travel, and are contested across
+time, which is the same task a rapporteur proceedings chapter performs for a
+conference contribution. I have presented my own research at WEHC (Lund, 2025)
+and the WEAI Annual Conference (San Francisco, 2025), and I write for audiences
+across economic history, political economy, and the history of economic thought.
+
+Having active papers in each of the areas these chapters address, I would
+engage with the contributions as a researcher, not only as a note-taker. I
+attach my CV and a letter of support from my supervisor, Professor Albrecht
+Ritschl.
+
+================================================================================
+SUPERVISOR LETTER
+================================================================================
+
+Signed letter on LSE letterhead from Professor Albrecht Ritschl, Department of
+Economic History, London School of Economics and Political Science, dated
+06 April 2026.
+
+Attached as: "Aris Grivokostopoulos Smith@250 AR_LSE.pdf"
+
+--- Letter text ---
+
+Dear colleagues,
+
+Recommendation for Aris Grivokostopoulos, LSE
+Rapporteur expression of interest
+
+I am writing in enthusiastic support of the application of my student
+Aristeidis Grivokostopoulos for the rapporteur position at the Wealth of
+Nations at 250 conference at Glasgow in October.
+
+Aris joined the LSE Economic History PhD programme in September 2024, funded
+by an ESRC DTP studentship. He is a second-year PhD student with four working
+papers in circulation, conference presentations at WEHC (Lund, 2025) and the
+WEAI Annual Conference (San Francisco, 2025), and affiliations with the LSE
+Data Science Institute and the Hellenic Observatory. His research is directly
+relevant to all three of his preferred assignments.
+
+Aris' paper "Between Civilisation and Constitution: Greek Parliamentary Debates
+on Gold Standard Adoption, 1875-1885", prepared for the Mary Morgan Retirement
+Workshop (June 2026), applies Morgan's models-as-mediators framework to show
+how economic ideas fail when applied without their institutional preconditions.
+This research connects directly to the questions Besley and Ghatak raise about
+values and institutions and to Rodrik's argument about contextual versus
+universal economic policy. A companion paper uses 755 roll call votes to test
+whether fiscal shocks shift legislators from clientelist to programmatic
+behaviour, extending the same institutional analysis to the legislative level.
+
+Aris' work on sovereign debt restructuring in the Ottoman Empire, Egypt, and
+Greece uses bond-level London Stock Exchange data to estimate the credit market
+effects of war-driven fiscal supervision. This connects directly to the fiscal
+infrastructure questions at the heart of Voth's chapter on the
+infrastructure-building properties of war finance.
+
+Aris is a good writer producing texts for audiences across economic history and
+the history of economic thought, and also teaches for EC311 (History of
+Economic Thought) at LSE.
+
+I support his application most strongly and without reservations. Please do not
+hesitate to get back to me with any queries.
+
+Yours faithfully,
+Albrecht Ritschl
+Professor

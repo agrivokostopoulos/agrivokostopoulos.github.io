@@ -3,34 +3,15 @@ Subject: Application for ORA Position – Global Forum on AI and Social Sciences
 
 Dear Dr Kinniburgh,
 
-Please find attached my application for the Occasional Research Assistant position
-with the Global Forum on AI and Social Sciences at the LSE Data Science Institute.
+Please find attached my application for the Occasional Research Assistant position with the Global Forum on AI and Social Sciences at the LSE Data Science Institute.
 
-The Global Forum's State of AI and Society report connects directly to two applied
-programmes I am working on. I am currently an RA at the Hellenic Observatory
-building datasets for Laliotis and Minos (2025), a study of labour market responses
-to an exogenous tourism shock using EFKA administrative data covering over five
-million private sector employees at ISCO-88 4-digit level. Separately, I have been
-leading a project on AI occupational exposure in the Greek economy for the Hellenic
-Observatory and Bank of Greece, harmonising 17 AI exposure index variants across 345
-occupations. Both involve the kind of cross-source data synthesis at scale the report
-demands, and I want to contribute to a publication with real international reach and
-influence on research and policy priorities.
+As a DSI PhD Affiliate since December 2024, I have presented at two DSI events (the PhD Affiliate Research Spotlight in November 2025 and the Lightning Talks in February 2025), and the Institute's work on AI and society sits at the centre of my current research activity. The Global Forum's State of AI and Society report connects directly to two applied programmes I am running in parallel.
 
-My methodological toolkit is well matched to the Forum's research agenda. My work
-draws heavily on text-as-data methods and large language models applied to historical
-and contemporary corpora, including a novel LLM-based sentiment analysis of the
-Tsouderos Archive and a roll call analysis of Greek parliamentary debates using over
-132,000 MP-vote observations. I am comfortable moving between qualitative
-interpretation and quantitative rigour, and I write for audiences that span academic
-and policy readerships. I am attaching two single-authored writing samples that
-illustrate both: the first applies an LLM-based approach to measure sentiment in
-archival correspondence during the 1931-1932 Greek sovereign debt crisis; the second
-uses roll call vote data to test whether fiscal shocks produce programmatic
-legislative transitions in nineteenth-century Greece.
+First, I am a co-author (with Monastiriotis and Chrysafis-Progopoulos) of a communication to the Department of Economic Analysis and Research, Bank of Greece, entitled "Measuring AI Exposure in the Greek Labour Market: A Comparative Analysis of Occupational Indices and Survey Evidence," assembling a harmonised dataset of AI occupational exposure indices mapped to ISCO-08 via crosswalk and covering both potentiality-based and revealed-use approaches, with a planned Research in Practice placement at the Bank of Greece (July–September 2026) to continue the project. Second, I am supporting Professor Almudena Sevilla (LSE Department of Social Policy) on an Employment Tribunal dataset covering discrimination in higher education, involving web scraping, data cleaning, and AI-assisted case-detail extraction using Gemini. Both projects involve the kind of large-scale data synthesis combining quantitative and AI-assisted methods that the Forum's report demands, and I want to contribute to a publication with real international reach and influence on research and policy priorities.
 
-I attach my CV and the two writing samples as PDFs. I am available to start
-immediately and can commit to the hours required.
+My methodological toolkit is well matched to the Forum's research agenda: my work draws on text-as-data methods and LLMs applied to historical and contemporary corpora, including a novel LLM-based sentiment analysis of the Tsouderos Archive — identifying two structural breaks via change point analysis and recovering a significant negative relationship between archive sentiment and Greek bond yields in an SVAR framework — and a roll call analysis ("Permeable Patronage") using 755 nominal roll call votes and 132,246 MP–vote observations. I am comfortable moving between qualitative interpretation and quantitative rigour and write for audiences that span academic and policy readerships; I attach two single-authored writing samples that illustrate both — the first applies an LLM-based approach to the 1931–1932 Greek sovereign debt crisis, the second uses roll call data to test whether fiscal shocks produce programmatic legislative transitions in nineteenth-century Greece.
+
+I attach my CV and the two writing samples as PDFs. I am available to start immediately and can commit to the hours required.
 
 Yours sincerely,
 Aristeidis Grivokostopoulos
