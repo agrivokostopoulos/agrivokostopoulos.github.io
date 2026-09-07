@@ -15,6 +15,13 @@ Thumbs.db
 *.log
 npm-debug.log*
 
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
 # Downloaded HO images (not needed for production)
 20-Photos.jpg
 Boardroom.jpg
