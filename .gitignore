@@ -46,3 +46,10 @@ donors.jpg
 ho_banner.jpg
 housing.png
 people.jpg
+
+# Office lock files and private draft applications / backups (public GitHub Pages repo)
+~$*
+.~lock.*
+*_backup_*
+Grivokostopoulos_WEHC_proposal.*
+huth_young_scholars_2026/
