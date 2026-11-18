@@ -1,53 +1,34 @@
-# Academic Website - Aristeidis Grivokostopoulos
+# Academic website of Aristeidis Grivokostopoulos
 
-This is a static single-page academic website built with HTML5, CSS3, and Vanilla JavaScript. It is designed to be lightweight, fast, and easy to maintain.
+A static, single-page site served by GitHub Pages at https://agrivokostopoulos.github.io. It is plain HTML and CSS with no JavaScript.
 
-## Project Structure
+## Files
 
 ```
 /
-├── index.html       # Main content file
+├── index.html       # All page content
 ├── css/
-│   └── styles.css   # All visual styling and variables
-├── js/
-│   └── main.js      # Interaction logic (menu, toggles)
+│   └── styles.css   # All styling; colours and widths are variables at the top
 ├── assets/
-│   ├── img/         # Images (headshot, etc.)
-│   └── pdf/         # Documents (CV)
+│   ├── img/         # Portrait and images
+│   └── pdf/         # CV and paper PDFs
 └── README.md
 ```
 
-## How to Edit
+## How to edit
 
-### 1. Updating Content (Text)
-Open `index.html` in any code editor (VS Code, Cursor, Notepad++). 
-- **Sections**: Look for comments like `<!-- About Section -->` to find specific areas.
-- **Papers**: To add a new working paper, copy an entire `<article class="paper-card">...</article>` block and paste it into the "Working Papers" subsection.
-- **Teaching**: Edit the `<ul>` list items in the `#teaching` section.
+### Content
+Open `index.html`. Each section is a `<section>` with an id (`about`, `research`, `policy`, `teaching`, `industry`, `cv`, `contact`).
 
-### 2. Updating Personal Details
-- **Headshot**: Replace `assets/img/headshot.jpg` with your photo. Ensure it is roughly square or portrait aspect ratio (e.g., 500x600px).
-- **CV**: Replace `assets/pdf/Aristeidis_Grivokostopoulos_CV.pdf` with your new PDF file. **Important**: Keep the filename the same, or update the link in `index.html`.
+- **Research papers.** Copy an existing `<article class="paper">` block. Each has a title (`h3`), a `subtitle` line, a grey `keywords` line, a `meta` line with status and link, and the abstract inside a `<details>` element, which the browser opens and closes on its own.
+- **Policy and applied work.** Same idea, with `<article class="project">` blocks and the description shown in full.
+- **Teaching and industry.** Plain rows, with the years or role in a `<span class="when">`.
 
-### 3. Change Colors / Fonts
-Open `css/styles.css`. At the top, you will see a `:root` block with variables:
+### CV
+Replace `assets/pdf/Aristeidis_Grivokostopoulos_CV.pdf` with the new PDF, keeping the same file name. The LaTeX source, `Aristeidis_Grivokostopoulos_CV.tex`, is also in this repository.
 
-```css
-:root {
-  --color-primary: #1a365d; /* Navy Blue */
-  --color-accent: #b8860b;  /* Gold */
-  /* ... */
-}
-```
-Change these hex codes to update the site's theme globally.
+### Colours and fonts
+The `:root` block at the top of `css/styles.css` holds the colours (`--bg`, `--text`, `--muted`, `--rule`, `--accent`), the font (`--serif`, Source Serif 4 from Google Fonts) and the column widths. A second block under `prefers-color-scheme: dark` sets the dark-mode colours, which follow the visitor's system setting.
 
 ## Publishing
-
-### GitHub Pages (Recommended)
-1. Push this repository to GitHub.
-2. Go to **Settings > Pages**.
-3. Select "Deploy from a branch" and choose `main` / `master`.
-4. Your site will be live at `yourusername.github.io/repo-name`.
-
----
-*Built December 2025*
+Pushing to `main` publishes the site through GitHub Pages, usually within a minute or two.
