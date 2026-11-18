@@ -16,7 +16,7 @@
 \usepackage{fancyhdr}
 
 % Geometry settings - very aggressive margins for space
-\usepackage[scale=0.98,top=1.5cm,bottom=0.5cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage[scale=0.98,top=1.2cm,bottom=0.6cm,left=1.0cm,right=1.0cm]{geometry}
 
 % Reduce spacing aggressively
 \usepackage{enumitem}
@@ -25,6 +25,31 @@
 % Reduce section spacing even more
 \renewcommand{\sectionfont}{\Large\mdseries\upshape}
 \renewcommand{\subsectionfont}{\large\mdseries\upshape}
+
+% Tighter section and entry spacing so added 2026 updates still fit on 4 pages
+\makeatletter
+\RenewDocumentCommand{\section}{sm}{%
+  \par\addvspace{1.5ex}%
+  \phantomsection{}%
+  \addcontentsline{toc}{section}{#2}%
+  \cvitem[0ex]{\strut\raggedleft\raisebox{\baseletterheight}{\color{bodyrulecolor}\rule{\hintscolumnwidth}{0.95ex}}}{\strut\sectionstyle{#2}}%
+  \par\nobreak\addvspace{0.7ex}\@afterheading}
+\RenewDocumentCommand{\subsection}{sm}{%
+  \par\addvspace{0.6ex}%
+  \phantomsection{}%
+  \addcontentsline{toc}{subsection}{#2}%
+  \cvitem[0ex]{}{\strut\subsectionstyle{#2}}%
+  \par\nobreak\addvspace{0.3ex}\@afterheading}
+\renewcommand*{\cventry}[7][0.12em]{%
+  \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    \strut%
+    \ifx&#7&%
+    \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+\makeatother
 
 % Personal data
 \renewcommand*{\namefont}{\fontsize{16}{18}\mdseries\upshape}
@@ -113,10 +138,10 @@
 %----------------------------------------------------------------------------------------
 \section{Research Experience}
 
-\cventry{04/2026--Present}{Research Assistant}{Data Science Institute, LSE}{London, UK}{}{%
+\cventry{04/2026--09/2026}{Research Assistant}{Data Science Institute, LSE}{London, UK}{}{%
 \begin{itemize}
 \item Writing-team member for the first LSE \textit{State of AI and Society} report, a MacArthur-funded flagship publication synthesising evidence on AI's labour-market impacts for policymakers, researchers, industry, and civil society
-\item Leading the quantitative labour-market stream, from annotated bibliography and evidence synthesis to chapter framing on exposure, adoption, employment, wages, and global digital infrastructure
+\item Led the quantitative labour-market stream, from annotated bibliography and evidence synthesis to chapter framing on exposure, adoption, employment, wages, and global digital infrastructure
 \end{itemize}%
 }
 
@@ -129,7 +154,7 @@
   \end{itemize}
 \item \textbf{Other Projects}
   \begin{itemize}
-  \item Supporting Dr. Laliotis \& Minos on ``Economic Incentives and Vaccination'', building a corpus of Greek regional news coverage and processing Cirium aviation arrivals data
+  \item Supported Dr. Laliotis \& Minos on ``Economic Incentives and Public Health'' (presented by Minos at the Piraeus International Economic Conference, June 2026); built a corpus of Greek regional news coverage and processed Cirium aviation arrivals data (April to August 2021)
   \item Supporting Prof. Monastiriotis on a comparative industrial-policy project on small EU member states (Denmark, Portugal, Greece, and Latvia), contributing to source synthesis, draft-paper development, comparative analysis, fact-checking, bibliography preparation, tables, and visualisation design
   \end{itemize}
 \end{itemize}%
@@ -146,7 +171,7 @@
 
 \cventry{11/2025--07/2026}{Research Assistant}{Prof. Almudena Sevilla, LSE Department of Social Policy}{London, UK}{}{%
 \begin{itemize}
-\item Building Employment Tribunal dataset on discrimination in higher education institutions
+\item Built an Employment Tribunal dataset on discrimination in higher education institutions
 \item Web scraping, data cleaning, and AI-assisted extraction (Gemini) of case details and outcomes
 \end{itemize}%
 }
@@ -163,11 +188,11 @@
 %----------------------------------------------------------------------------------------
 \section{Teaching Experience}
 
-\cventry{10/2024--Present}{Teaching Assistant}{LSE Economic History Department}{London, UK}{}{%
+\cventry{10/2024--06/2026}{Teaching Assistant}{LSE Economic History Department}{London, UK}{}{%
 \begin{itemize}
-\item EC311 (History of Economics: How Theories Change, conv. Dr. Cléo Chassonnery-Zaïgouche): lead two weekly seminar groups (21 teaching weeks); mark three rounds of formative essays and provide written feedback; received two formal teaching observations (Eden Centre and departmental)
-\item EC204 (History of Bubbles, Crashes and Inflations, conv. Profs. Ritschl, Accominotti \& Dr. Lennard): led two class groups in LSE Summer School (June--July 2025, 3 weeks); marked formative, mid-session, and final exams
-\item EH390 (Stata Workshops), EH101 and EH102: additional teaching and marking duties across courses
+\item EC311 (History of Economics: How Theories Change, conv. Dr. Cléo Chassonnery-Zaïgouche), 2025-26: led two weekly seminar groups (21 teaching weeks); marked three rounds of formative essays and provided written feedback; received two formal teaching observations (Eden Centre and departmental)
+\item EC204 (History of Bubbles, Crashes and Inflations, conv. Profs. Ritschl, Accominotti \& Dr. Lennard): led class groups in LSE Summer School (June--July 2025, 3 weeks; June 2026); marked formative, mid-session, and final exams
+\item EH390 (Stata Workshops), 2025-26; EH101 and EH102, 2024-26: additional teaching and marking duties across courses
 \end{itemize}%
 }
 
@@ -184,6 +209,8 @@
 \section{Professional Experience}
 
 \subsection{Tech}
+
+\cventry{08/2026--11/2026}{Adviser}{Scroll Home}{London, UK}{}{LSE Research in Practice placement}
 
 \cventry{01/2024--06/2025}{Founder Associate, Operations}{Genie (acqui-hired by Doss, summer 2025)}{London, UK}{}{
 \begin{itemize}
@@ -256,9 +283,10 @@
 
 \cventry{}{Other Research}{}{}{}{
 \begin{itemize}
-\item ``Whatever Happened to Social History? Social History in the Work of the Economic History Society, 1926--2026'' (with Prof. Sir Rick Trainor, LSE). Examines the EHS's century-long relationship with social history using un-digitised Council minutes, AGM records, and sampled \textit{Economic History Review} articles and conference programmes (1927--2019). Finds thematic persistence of social topics (labour, demography, health, gender) alongside a methodological shift toward quantitative methods; the journal and conference diverged in approach while converging on the same subjects. Presented at the EHS Centenary Conference (April 2026).
+\item ``Whatever Happened to Social History? Social History in the Work of the Economic History Society, 1926--2026'' (with Prof. Sir Rick Trainor, LSE; draft, November 2026). Examines the EHS's century-long relationship with social history using un-digitised Council minutes, AGM records, and sampled \textit{Economic History Review} articles and conference programmes (1927--2019). Finds thematic persistence of social topics (labour, demography, health, gender) alongside a methodological shift toward quantitative methods; the journal and conference diverged in approach while converging on the same subjects. Presented at the EHS Centenary Conference (April 2026).
 \item ``A Predictable Crisis? Deposit Losses during the German Banking Crisis of 1931'' (with Philip Fliers, Queen's University Belfast; draft, June 2026). Bimonthly German bank balance sheets (1925--1934; 8,616 bank--month observations). Severe deposit losses were system-wide rather than confined to failed banks, highly predictable from pre-crisis funding structure as early as 1927, and differed by maturity. Aggregate contraction coexisted with predictable deposit gains at other banks.
 \item ``Regional GDP in Greece, 1900--2015'' (Hellenic Observatory, with Prof. Vassilis Monastiriotis; Prof. Joan R. Ros\'es as external adviser). First NUTS-2 regional GDP estimates for Greece, built for the Ros\'es--Wolf European regional GDP database, which does not yet cover Greece. Geary--Stark estimates for 1900--1938 from the 1920 and 1930 industrial and commercial censuses, spliced to published regional figures and to ARDECO and Eurostat regional accounts from 1950; interwar agricultural output from Socrates Petmezas's prefecture-level series (University of Crete).
+\item ``Who Verifies the Frontier? Access, Appropriation and the Demand for Checking AI Claims: Evidence from a Census of Frontier Model Releases, 2024 to 2026'' (draft).
 \end{itemize}}
 
 %----------------------------------------------------------------------------------------
