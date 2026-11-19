@@ -1,26 +1,30 @@
-# Dependencies
-node_modules/
+# This repo is public and served by GitHub Pages: every tracked file is readable by anyone.
+# Allowlist: only the site itself is tracked. Applications, letters, drafts, LaTeX sources
+# and agent files stay local. To publish a new file, put it under assets/ (or add a ! rule).
+/*
+!/.gitignore
+!/.nojekyll
+!/index.html
+!/README.md
+!/package.json
+!/Aristeidis_Grivokostopoulos_CV.pdf
+!/assets/
+!/css/
+!/js/
 
-# OS files
+# Never track, even inside allowed folders
 .DS_Store
 Thumbs.db
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
+~$*
+.~lock.*
+*_backup_*
 *.log
-npm-debug.log*
-
-# LaTeX build artifacts
 *.aux
 *.fdb_latexmk
 *.fls
 *.out
 *.synctex.gz
+node_modules/
 
 # Downloaded HO images (not needed for production)
 20-Photos.jpg
@@ -46,10 +50,3 @@ donors.jpg
 ho_banner.jpg
 housing.png
 people.jpg
-
-# Office lock files and private draft applications / backups (public GitHub Pages repo)
-~$*
-.~lock.*
-*_backup_*
-Grivokostopoulos_WEHC_proposal.*
-huth_young_scholars_2026/
